@@ -1,0 +1,31 @@
+.container {
+  margin: 15px 0;
+}
+
+
+.btn {
+  padding: 4px 10px;
+  margin-right: 15px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+  &:hover {
+    background-color:rgb(13, 141, 124);
+  }
+  &:focus {
+    background-color: rgb(13, 141, 124);
+  }
+ 
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:active {
+    background-color: rgb(13, 141, 124);
+    box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+  }
+}
